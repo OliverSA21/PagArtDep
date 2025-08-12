@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Zapatos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #ff6b6b; color: white; padding: 10px; text-align: center; }
+    main { padding: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+    .card { border: 1px solid #ddd; padding: 10px; border-radius: 8px; text-align: center; }
+    .card img { width: 100%; border-radius: 6px; }
+    button { background: #ff6b6b; color: white; border: none; padding: 8px; cursor: pointer; border-radius: 5px; }
+    footer { text-align: center; padding: 10px; background: #f3f3f3; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zapatería Online</h1>
+  </header>
 
+  <main>
+    <div class="card">
+      <img src="https://picsum.photos/seed/shoe1/300/200" alt="Zapato 1">
+      <h3>Sneaker Blanco</h3>
+      <p>$1,199 MXN</p>
+      <button>Agregar</button>
+    </div>
+    <div class="card">
+      <img src="https://picsum.photos/seed/shoe2/300/200" alt="Zapato 2">
+      <h3>Oxford Marrón</h3>
+      <p>$1,899 MXN</p>
+      <button>Agregar</button>
+    </div>
+    <div class="card">
+      <img src="https://picsum.photos/seed/shoe3/300/200" alt="Zapato 3">
+      <h3>Sandalia Verano</h3>
+      <p>$699 MXN</p>
+      <button>Agregar</button>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Zapatería Online — Todos los derechos reservados.
+  </footer>
+</body>
+</html>
